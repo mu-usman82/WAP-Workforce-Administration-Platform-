@@ -1,10 +1,5 @@
-/******************** Importing Essential Libraries ************************/
-
 import java.util.*;
 import java.io.*;
-
-
-/*************************** MENU OF EMS ****************************/
 
 class MainMenu
 {
@@ -14,7 +9,7 @@ class MainMenu
     System.out.println("\t\t\t  EMPLOYEE MANAGEMENT SYSTEM");
     System.out.println("\t\t*******************************************");
     System.out.println("\t\t\t    --------------------");
-    System.out.println("\t\t\t     ~$ Abhinav Dubey");
+    System.out.println("\t\t\t     ~$ Usman");
     System.out.println("\t\t\t    --------------------");
     System.out.println("\n\nPress 1 : To Add an Employee Details");
     System.out.println("Press 2 : To See an Employee Details ");
@@ -24,8 +19,6 @@ class MainMenu
 
   }
 }
-
-/************************ To add details of Employee *********************/
 
 class Employee_Add
 {
@@ -159,7 +152,7 @@ class CodeExit
     System.out.println("\n*****************************************");
     System.out.println("$ cat Thank You For Using my Software :) ");
     System.out.println("*****************************************");
-    System.out.println("\t\t/~ <0d3d by Abhinav Dubey\n");
+    System.out.println("\t\t/~ <0d3d by Usman\n");
     System.exit(0);
   }
 }
@@ -170,8 +163,6 @@ class EmployManagementSystem
 {
   public static void main(String arv[])
   {
-    /** To clear the output Screen **/
-    System.out.print("\033[H\033[2J");
 
     Scanner sc=new Scanner(System.in);
     Employee_Show epv =new Employee_Show();
@@ -257,7 +248,6 @@ class EmployManagementSystem
 
               System.out.print("\nPress Enter to Continue...");
               sc.nextLine();
-              System.out.print("\033[H\033[2J");
               obj1.menu();
               break;
             }
@@ -276,4 +266,4 @@ class EmployManagementSystem
   }
 }
 
-/****************************** CODED BY ABHINAV DUBEY ************************/
+/****************************** CODED BY Usman ************************/
